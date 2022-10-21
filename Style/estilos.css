@@ -1,0 +1,393 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.wrap{
+	margin: 30px;
+
+	
+	
+}
+
+ul.tabs{
+	width: 100%;
+	background: #06055a;
+	list-style: none;
+	display: flex;
+}
+
+ul.tabs li{
+	width: 50%;
+}
+
+ul.tabs li a{
+	color: rgb(195, 218, 132);
+	text-decoration: none;
+	font-size: 16px;
+	text-align: center;
+
+	display: block;
+	padding: 20px 0px;
+}
+
+.active{
+	background: #04456b;
+}
+
+ul.tabs li a .tab-text{
+	margin-left: 8px;
+}
+
+.secciones{
+	width: 100%;
+	background-attachment: unset;
+}
+
+.secciones article{
+	padding: 30px;
+}
+
+.secciones article p{
+	text-align: justify;
+}
+
+
+@media screen and (max-width: 700px){
+	ul.tabs li{
+		width: none;
+		flex-basis: 0;
+		flex-grow: 1;
+	}
+}
+
+@media screen and (max-width: 450px){
+	ul.tabs li a{
+		padding: 15px 0px;
+	}
+
+	ul.tabs li a .tab-text{
+		display: none;
+	}
+
+	.secciones article{
+		padding: 20px;
+	}
+}
+
+table, th, td{
+    border-style:dashed;
+    border-width:2px;
+    border-color:brown ; 
+    border: 8px solid red;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    border-collapse:collapse; /*borde simple*/
+}
+
+td img{
+    width: 30%;
+}
+
+th{
+    height: 50px;
+    background-color: chartreuse;
+}
+
+td{
+    height: 30px;
+    vertical-align:top; /*bottom (inf), top (sup)*/
+    padding: 15px;
+}
+
+
+
+#mercury{
+    color: rgb(66, 57, 75);
+    font-size: 25px;
+}
+
+#venus{
+    color:chocolate;
+    font-size: 25px;
+}
+
+#earth{
+    color:rgb(18, 150, 18);
+    font-size: 25px;
+}
+
+#mars{
+    color: brown;
+    font-size: 25px;
+}
+
+#jupiter{
+    color:blanchedalmond ;
+    font-size: 25px;
+}
+
+#saturn{
+    color:bisque ;
+    font-size: 25px;
+}
+
+#uranus{
+    color: aquamarine;
+    font-size: 25px;
+}
+
+#neptune{
+    color: aqua;
+    font-size: 25px;
+}
+
+#planet{
+    color: rgba(41, 182, 248, 0.801);
+}
+
+p{
+    color: rgb(129, 178, 197);
+    font-size: 20px;
+    text-align: justify;
+    word-spacing: 3px;
+    line-height: 23px;
+
+}
+
+body {
+	margin: 0;
+	padding: 0;
+    font-family: Lato, sans-serif;
+    background: rgb(0, 0, 25);
+    background-image: url("https://i.pinimg.com/originals/9c/b6/19/9cb6195de12c10ac094a3190db2ce6c2.jpg");
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+h1 {
+	font-size: 2.3em;
+	line-height: 1.3em;
+	margin: 15px 0;
+	text-align: center;
+	font-weight: 300;
+    color: rgba(241, 112, 7, 0.966);
+}
+
+p {
+	margin: 0 0 1.5em 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+
+#main-header {
+	background: #333;
+	color: white;
+	height:80px ;
+}	
+	#main-header a {
+		color: white;
+	}
+
+
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+	#logo-header:hover {
+		color: #0b76a6;
+	}
+	
+	#logo-header .site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	
+	#logo-header .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: #999;
+	}
+	
+
+
+nav {
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+			
+				nav ul li a:hover {
+					background: #0b76a6;
+				}
+
+
+#main-content {
+	background: rgb(0, 0, 25);
+	width: 100%;
+	max-width: 100%;
+	margin: 0 auto;
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+	#main-content header,
+	#main-content .content {
+		padding: 40px;
+	}
+
+
+#main-footer {
+	background: #333;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+}
+	#main-footer p {
+		margin: 0;
+	}
+	
+	#main-footer a {
+		color: rgb(134, 16, 16);
+	}
+
+    table, th, td{
+        border-style:dashed;
+        border-width:2px;
+        border-color:rgb(133, 114, 114) ; 
+        border: 3px solid rgba(76, 137, 228, 0.699);
+    }
+    
+    table{
+        width: 100%;
+        text-align: center;
+        border-collapse:collapse; /*borde simple*/
+    }
+    
+    td img{
+        width: 5700px;
+        height: 250px;
+    }
+    
+    th{
+        height: 50px;
+        background-color: rgb(1, 10, 85);
+        color:rgb(170, 170, 49)
+    }
+    
+    td{
+        height: 30px;
+        vertical-align:middle; /*bottom (inf), top (sup)*/
+        padding: 55px;
+        color: #0b76a6;
+    }
+    
+    p{
+        color: rgb(92, 121, 165);
+    }
+	#Polux a{
+		font-size: 25px;
+		color: rgb(218, 111, 35);
+	}
+	
+	#Arturo a{
+		font-size: 25px;
+		color: rgb(192, 102, 38);
+	}
+	
+	#Aldebaran a{
+		font-size: 25px;
+		color: rgba(196, 94, 21, 0.87);
+	}
+	
+	#Rigel a{
+		font-size: 25px;
+		color: rgb(238, 228, 222);
+	}
+	
+	#Pistola a{
+		font-size: 25px;
+		color: rgb(255, 255, 255);
+	}
+	
+	#Antares a{
+		font-size: 25px;
+		color: rgb(214, 104, 35);
+	}
+	
+	#Betel a{
+		font-size: 25px;
+		color: rgb(248, 92, 2);
+	}
+	
+	#Mu a{
+		font-size: 25px;
+		color: rgb(224, 114, 45);
+	}
+	
+	#VY a{
+		font-size: 25px;
+		color: rgb(255, 72, 0);
+	}
+	
+	#UY a{
+		font-size: 25px;
+		color: rgb(255, 139, 7);
+	}
+	#irys{
+		color: chocolate;
+		font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	}
+	footer{
+		background-color: rgb(23, 23, 80);
+		width: 100%;
+		text-align: center;
+		bottom: 0;
+		color: rgb(233, 93, 93);
+		
+	}
+	.site-name{
+		text-align: right;
+		padding-left: 550px;
+		font-size:larger;
+	}
+	.site-desc{
+		padding-left: 20px;
+	}
+	.refencia li{
+		font-size:medium ;
+		color: #06055a;
+	}
+	h3{
+		color: aqua;
+	}
